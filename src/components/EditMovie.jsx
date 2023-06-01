@@ -19,8 +19,7 @@ export default function EditMovie() {
       name: e.target.name.value, image: e.target.image.value, hero: e.target.hero.value, director: e.target.director.value,
       language: e.target.language.value, release: e.target.release.value, complete: e.target.complete.checked
     }
-    editMovie(id, updatedMovie)
-    nav(`/${id}`)
+    editMovie(id, updatedMovie).then(() =>nav(`/${id}`))
   }
   return (
     <div className="editmovie">
@@ -35,7 +34,6 @@ export default function EditMovie() {
         Completed:<input type='checkbox' name='complete' defaultChecked={data.complete} /> <br />
         &nbsp;
         <input className="button tertiary" type='submit' /> &nbsp;  &nbsp;
-        <script>location.reload()</script>
         <button className="button tertiary" onClick={() => { nav('/') }}>Back to Movies</button>
       </form>
     </div>
