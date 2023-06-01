@@ -1,0 +1,135 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  height: 11%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  display: flex;
+  padding: 0px 0px 50px;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+
+  .logo {
+    display: flex;
+    margin-left: auto;
+    height: 100px;
+    width: 245px;
+  }
+}
+
+.menuitems {
+  display: flex;
+  margin-top: 9%;
+  margin-left: 3%;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.contact {
+  display: flex;
+  margin-top: 9%;
+  margin-left: auto;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  margin-top: 9%;
+  margin-right: -75%;
+}
+
+.movielist {
+  margin-top: 8%;
+}
+
+.moviedetails {
+  border: solid 2px;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 3%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.editmovie {
+  border: solid 2px;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 3%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.createmovie {
+  border: solid 2px;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 2%;
+  margin-bottom: 8%;
+  text-align: center;
+}
+
+.contactinfo {
+  border-radius: 25px;
+  border: solid 2px;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-top: 10%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px rgba(123, 22, 22, 0.2);
+  transition: 0.3s;
+  border-radius: 20px;
+  margin-right: 6%;
+  margin-left: 1%;
+  display: inline-block;
+  padding: 15px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card1:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0);
+}
+
+/* Add some padding inside the card container */
+.card {
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+img {
+  border-radius: 0px 0px 0px;
+  object-fit: cover;
+}
+
+.container2 {
+  display: flex;
+}
+.backtohome{
+  display:flex;
+  justify-content:center;
+  text-align:center;
+}
