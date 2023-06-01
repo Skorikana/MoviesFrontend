@@ -10,7 +10,7 @@ function Create() {
             name: e.target.name.value, image: e.target.image.value, hero: e.target.hero.value, director: e.target.director.value,
             language: e.target.language.value, release: e.target.release.value
         }
-        createMovie(movie).then(() => nav(`/`))
+        createMovie(movie).then(() => nav(`/movies`))
     }
 
     return (
