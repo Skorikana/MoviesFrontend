@@ -13,7 +13,7 @@ export default function Movie() {
 
     const deleteTheMovie = () => {
         deleteMovie(id) // delete function goes here
-        nav('/') // navigate back to the main screen
+        nav('/movies') // navigate back to the main screen
     }
 
     return (
@@ -26,7 +26,7 @@ export default function Movie() {
             <h5>Language:{movie.language}</h5>
             <h5>Realease:{movie.release}</h5>
             <button className="button tertiary" onClick={() => { nav(`/${id}/edit`) }}>Edit</button> &nbsp;
-            <button className ="button tertiary" onClick={deleteTheMovie }>Delete</button> &nbsp;
+            <button className ="button tertiary" onClick={deleteTheMovie}>Delete</button> &nbsp;
             <button className ="button tertiary"onClick={() => { nav('/') }}>Back to Movies</button>&nbsp;
         </div>
     )
