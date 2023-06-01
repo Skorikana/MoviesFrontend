@@ -13,7 +13,7 @@ export default function Movie() {
 
     const deleteTheMovie = () => {
         deleteMovie(id) // delete function goes here
-        nav('/movies') // navigate back to the main screen
+        nav('/') // navigate back to the main screen
     }
 
     return (

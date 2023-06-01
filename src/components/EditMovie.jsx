@@ -35,7 +35,8 @@ export default function EditMovie() {
         Completed:<input type='checkbox' name='complete' defaultChecked={data.complete} /> <br />
         &nbsp;
         <input className="button tertiary" type='submit' /> &nbsp;  &nbsp;
-        <button className="button tertiary" onClick={() => { nav('/Movies') }}>Back to Movies</button>
+        <script>location.reload()</script>
+        <button className="button tertiary" onClick={() => { nav('/') }}>Back to Movies</button>
       </form>
     </div>
   )

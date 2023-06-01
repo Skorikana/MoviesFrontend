@@ -19,9 +19,9 @@ export const getMovie =  (id) => {
 }
 //Edit the Movie
 
-export const editMovie = (id, updatedMovie) => {
+export const editMovie =async (id, updatedMovie) => {
     const URL = `${baseURL}/${id}`;
-    const response = axios.put(URL, updatedMovie);
+    const response = await axios.put(URL, updatedMovie);
     return response;
     }
 
