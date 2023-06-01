@@ -1,7 +1,7 @@
 //All of our end points
 import axios from "axios";
-const baseURL = "http://localhost:3000/movies";
-//const baseURL = "https://movies-9cxp.onrender.com/movies"
+//const baseURL = "http://localhost:3000/movies";
+const baseURL = "https://movies-9cxp.onrender.com/movies"
 ;
 //Show all
 export const getMovies = () =>{
